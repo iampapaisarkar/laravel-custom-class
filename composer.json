@@ -1,7 +1,7 @@
 {
     "name": "iampapaisarkar/laravel-custom-class",
     "description": "Easily can create custom classes by artisan command",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "type": "library",
     "license": "MIT",
     "autoload": {
@@ -25,6 +25,6 @@
     "minimum-stability": "dev",
     "require": {
         "php": "^7.4|^8.0",
-        "illuminate/support": "^8.0"
+        "vendor/package": "*"
     }
 }
