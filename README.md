@@ -5,24 +5,24 @@ Easily can create custom classes by artisan command (Service, Trait and Factory 
 
 [![N|Solid](https://www.iampapaisarkar.in/hire-me.svg)](https://www.upwork.com/freelancers/~01b68508e481c72291)
 
-## Version
-```php
+## Laravel Version
+```bash
     Laravel 8 >=
 ```
 
 ## installation
-```sh
-composer install iampapaisarkar/laravel-custom-class
+```bash
+composer require iampapaisarkar/laravel-custom-class
 ```
 
 ## Usage
-```sh
+```php
     // in your application app.php file add service provider
 
-    go to 
+    // go to 
         config/app.php
 
-    scroll down to providers array and set this Iampapaisarkar\LaravelCustomClass\LaravelCustomClassServiceProvider::class,
+    // scroll down to providers array and set this Iampapaisarkar\LaravelCustomClass\LaravelCustomClassServiceProvider::class,
 
         'providers' => ServiceProvider::defaultProviders()->merge([
         
@@ -34,8 +34,8 @@ composer install iampapaisarkar/laravel-custom-class
 
 ## Usage
 
-```php
-    Open you project terminal and run following commands:
+```bash
+    // Open you project terminal and run following commands:
 
     // Create Service
     php artisan make:service YouClassName
